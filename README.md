@@ -1,6 +1,6 @@
 # 📈 dataAdventure
-by <i>Manan Patel</i>
-Currently pursuing BE in 
+by <i>Manan Patel</i> <br>
+Currently pursuing BE in "Computer Science and Design" course provided by GTU, India.
 # 📝 Repo. description
 This repository serves as a means of documenting my journey to begin and progress with Data Science concepts. 
 # 🎯 Aim
