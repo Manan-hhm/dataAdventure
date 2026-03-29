@@ -16,3 +16,11 @@
 <h3>Vector and Matrices</h3>
 <b>-> Vector: </b> List of Numbers <br>
 <b>-> Matrices: </b> List of vectors  
+
+<h3>Some numpy functions</h3>
+<b>array: </b> Create an array from passed parameter.<br>
+<b>shape: </b> Returns no. of lists inside lists and no. of elements in inner lists.<br>
+<b>arange(n): </b> Create an array from 0 to n-1.<br>
+<b>zeros(shape): </b> Create an array with all 0s as per defined shape.<br>
+<b>ones(shape): </b> Create an array with all 1s as per defined shape.<br>
+<b>random.randint(range, size=shape): </b> Create an array with defined<br>
