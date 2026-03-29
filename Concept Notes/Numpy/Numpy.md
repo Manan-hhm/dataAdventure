@@ -7,7 +7,8 @@
 <h4>Features</h4>
 -> Optimized for numerical data operations. <br>
 -> Written in C. So, it is optimized for speed. <br>
--> Lots of submodules for doing tasks like matrix multiplications, chi-test, matrix decomposition, etc. useful in data science tasks.
+-> Lots of submodules for doing tasks like matrix multiplications, chi-test, matrix decomposition, etc. useful in data science tasks. <br>
+-> Some unique things to handle non-numerical data, infinities, etc.
 
 <h4>Disadvantages</h4>
 -> Not directly useful for majorly non-numerical data (e.g. reviews). <br>
@@ -18,9 +19,16 @@
 <b>-> Matrices: </b> List of vectors  
 
 <h3>Some numpy functions</h3>
-<b>array: </b> Create an array from passed parameter.<br>
-<b>shape: </b> Returns no. of lists inside lists and no. of elements in inner lists.<br>
+<b>array: </b> Create an array from passed parameter. <br> A single data type per array is recommended. If you provide different datatypes, it will try automatic conversions like int to float or int/float to string. <br>
+<b>shape: </b> Returns no. of lists inside lists and no. of elements in inner lists. <br>
 <b>arange(n): </b> Create an array from 0 to n-1.<br>
 <b>zeros(shape): </b> Create an array with all 0s as per defined shape.<br>
 <b>ones(shape): </b> Create an array with all 1s as per defined shape.<br>
 <b>random.randint(range, size=shape): </b> Create an array with defined<br>
+<b>astype: </b> Convert numpy array data type (e.g. float to int32)
+
+<h3>Numpy data types</h3>
+int (8, 16, 32, 64 bits), uint (8, 16, 32, 64 bits), bool, float (16, 32, 64, 128 bits)
+
+<h3>Numpy array slicing</h3>
+Reducing or masking arrays to obtain smaller arrays as desired.
