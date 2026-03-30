@@ -32,3 +32,9 @@ int (8, 16, 32, 64 bits), uint (8, 16, 32, 64 bits), bool, float (16, 32, 64, 12
 
 <h3>Numpy array slicing</h3>
 Reducing or masking arrays to obtain smaller arrays as desired.
+
+<h3>Transpose</h3>
+Transposing a matrix converts its rows into columns and columns into rows. <br> 
+The order of the resultant matrix thus can get reversed in case of a rectangular matrix. <br>
+It can be used to centre matrix operations around parameters that are in columns without transposing. <br>
+Because transposing gets those parameters in row arrangement.
