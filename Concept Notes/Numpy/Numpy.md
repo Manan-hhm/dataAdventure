@@ -46,3 +46,12 @@
 -> Conditions: Number of rows must be same for both the matrices. The matrix used to perform an operation on the main matrix must have only &nbsp&nbsp&nbsp&nbsp 1 column. <br>
 -> Very important. We often need to add additional numbers to an entire matrix. <br>
 &nbsp&nbsp&nbsp&nbsp For example, in neural networks, we add bias vector to multiplication of input and weight vectors by broadcasting.
+
+<h3>Matrix Multiplication</h3>
+-> A significant operation used almost everywhere in ML, especially in Neural networks/Deep learning. <br>
+-> GPUs are used to accelerate matrix multiplication. <br>
+-> For example, we want to calculate final grades of student based on weightage of each subject. (similar to weight matrix in neural networks) <br>
+-> 3x4 matrix: 3 students 4 subjects. 4x1 matrix: weightage of each subject <br>
+-> Multiplication result: Final grade/score of each student in a 3x1 matrix. <br>
+-> For multiplying any two matrices A (of order MxN) and B (of order PxQ): <br>
+&nbsp&nbsp&nbsp&nbsp No. of columns of A and no. of rows of B must be the same .i.e. N = P.
