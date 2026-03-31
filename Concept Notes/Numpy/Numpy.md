@@ -55,3 +55,9 @@
 -> Multiplication result: Final grade/score of each student in a 3x1 matrix. <br>
 -> For multiplying any two matrices A (of order MxN) and B (of order PxQ): <br>
 &nbsp&nbsp&nbsp&nbsp No. of columns of A and no. of rows of B must be the same .i.e. N = P.
+
+<h3>Tensors</h3>
+-> Tensors are arrays with 3 or more dimensions. Mostly, they are 3-D. <br>
+-> Most common example or use case is of a color image. <br>
+-> Color images are stored in disk and displayed by using three different images of Red, Green and Blue together for the final color image.
+-> 3D Tensors can be transposed by swapping any two axes or rotating the 3D matrix.
