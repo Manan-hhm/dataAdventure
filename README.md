@@ -9,3 +9,32 @@ This repository serves as a means of documenting my journey to begin and progres
   <li>Implementing the knowledge gained via projects</li>
   <li>Working with organizations/teams to contribute</li>
 </ul>
+
+# 📈 Progress 
+<table>
+  <tr>
+    <th>Sr. No.</th>
+    <th>Concepts</th>
+    <th>Status</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Data Science: What and why?</td>
+    <td>Completed ✔️</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Numpy library</td>
+    <td>Ongoing 🔃</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Pandas Basics</td>
+    <td>Coming up ⌚</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>OpenCV Basics</td>
+    <td>Coming up ⌚</td>
+  </tr>
+</table>
