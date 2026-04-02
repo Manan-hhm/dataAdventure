@@ -25,3 +25,13 @@
 -> Every DataFrame is made up of series. <br>
 -> Each Series is equivalent to a column vector.
 -> Functions like head, tail, info etc. allow us to see inside a Pandas DataFrame.
+
+<h3>Data source for Pandas</h3>
+-> DataFrames are often not directly created in Pandas or converted from Python lists. <br>
+-> In fact, most of the DataFrames are created by reading from sources like SQL, .CSV files (most common), excel, JSON, etc. <br>
+-> Another format Pickle (.pkl/.pck) can be used to transfer data between two machines. <br>
+-> Pickle can be used to store data temporarily when you want to resume working on the dataset again soon.
+<br> &nbsp&nbsp&nbsp&nbsp  <b>Note: </b> Pickle file format can differ by python version (a big problem)
+
+<h3>Data types in Pandas</h3>
+-> Pandas supports various data types like objects (string or mixed data like python lists, dictionaries, etc.), int64, float64, bool, datetime64, <br>  &nbsp&nbsp&nbsp&nbsp timedelta, category.
