@@ -63,6 +63,13 @@
 -> Often an invalid value may be used. (E.g.: Age is unknown:  using -1/0  or Name unknown: using empty string "") <br>
 -> Use .str.strip() to remove blank spaces like " ", "  ".
 
-
-
-
+<h3>Joining/Merging DataFrames</h3>
+Five types of join/merge: <br>
+1. INNER: Only rows present on both dataframes are kept. (e.g. Join Country Covid data with Continent data) <br>
+2. LEFT: Rows present on both dataframes are kept, along with leftover rows from the left dataframe. (e.g. Hong Kong considered in country covid <br> &nbsp&nbsp&nbsp data but not in continent country data.) <br>
+3. RIGHT: Rows present on both dataframes are kept, along with leftover rows from the right dataframe. <br>
+4. OUTER JOIN: Rows present on both dataframes are kept, along with leftover rows from both the left and right dataframes. (e.g. Vatican City <br> &nbsp&nbsp&nbsp considered with NULL data values in Covid data and has existence in Country Continent data) <br>
+5. ANTI-JOIN: Rows present on both dataframes are removed, only leftover rows from botht the dataframes are kept. <br>
+&nbsp&nbsp&nbsp ANTI-LEFT & ANTI-RIGHT to keep only left and right leftover rows respectively. <br> &nbsp&nbsp&nbsp
+(E.g. Anti-join finds out that many small countries in Europe have covid data missing. It can be reported to the data
+collection team about <br> &nbsp&nbsp&nbsp missing data.)
