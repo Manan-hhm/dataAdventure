@@ -51,3 +51,18 @@
 &nbsp&nbsp&nbsp&nbsp countries_covid_data[(countries_covid_data["Country"] == "India")] <br>
 -> In newer Pandas versions we can simply use query to mask and display output: <br>
 &nbsp&nbsp&nbsp&nbsp countries_covid_data.query("(Country == 'India') & (Date == '2020-06-22')") 
+
+<h3>NULL/Missing values</h3>
+-> Data often has blank values. <br>
+-> Panda often fills these blanks with "NaN" or "None". <br>
+-> NaN: Not a Number. Fill blank values in numerical columns. <br>
+-> None: Python's equivalent of NULL. Fill blanks for object type columns. <br>
+-> NaT: Not a Time. Fill blank values in datetime columns. <br> <br>
+
+-> Not all blank values will be NaN/None. <br>
+-> Often an invalid value may be used. (E.g.: Age is unknown:  using -1/0  or Name unknown: using empty string "") <br>
+-> Use .str.strip() to remove blank spaces like " ", "  ".
+
+
+
+
