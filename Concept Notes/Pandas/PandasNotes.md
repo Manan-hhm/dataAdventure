@@ -35,3 +35,19 @@
 
 <h3>Data types in Pandas</h3>
 -> Pandas supports various data types like objects (string or mixed data like python lists, dictionaries, etc.), int64, float64, bool, datetime64, <br>  &nbsp&nbsp&nbsp&nbsp timedelta, category.
+
+<h3>DataFrame Indices</h3>
+-> Can be simple integers starting from 0/1 but not necessarily. <br>
+-> You can set a column as the index of a Dataframe, making them more similar to dictionaries than lists. <br>
+-> Dataframe rows can be accessed using loc or iloc (iloc is based on location number not index).
+
+<h3>Masks</h3>
+-> Masking is used to select from a dataframe. We can create mask based on some conditions to fetch specific data. <br>
+-> We can use logical operators like AND, OR, NOT to mask based on multiple conditions as desired. <br>
+-> For example: (df['t'] == 'a') | (df['t'] == 'b') | (df['t'] == 'c'). This would return a Boolean series. <br>
+-> Direct/default masking returns a boolean series: <br>
+&nbsp&nbsp&nbsp&nbsp countries_covid_data["Country"] == "India" <br>
+-> Pass the mask as a column-like reference to display data: <br>
+&nbsp&nbsp&nbsp&nbsp countries_covid_data[(countries_covid_data["Country"] == "India")] <br>
+-> In newer Pandas versions we can simply use query to mask and display output: <br>
+&nbsp&nbsp&nbsp&nbsp countries_covid_data.query("(Country == 'India') & (Date == '2020-06-22')") 
