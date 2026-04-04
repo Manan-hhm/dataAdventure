@@ -20,3 +20,16 @@
   <li>Matplotlib: The standard data visualization library</li>
   <li>Seaborn: Effective data visualization library built on matplotlib</li>
 </ul>
+
+<h3>Scatter Plot</h3>
+-> Most basic plot. <br>
+-> Displays points in 2D grid. <br>
+-> It can be useful to find patterns, relationships and clusters. <br>
+
+-> Some ways to create scatterplots:  
+<ol>
+ dSV = dataSetVariable
+ <li>Pandas: dSV.plot.scatter(x="Col1",y="Col2")</li>
+ <li>Matplotlib Pyplot: plt.scatter(x=dSV["Col1"], y=dSV["Col2"]) &nbsp&nbsp plt.xlabel("label") &nbsp&nbsp plt.ylabel("label") </li>
+ <li>Seaborn: sns.scatterplot(data=dSV, x="Col1", y="Col2")</li>
+</ol>
