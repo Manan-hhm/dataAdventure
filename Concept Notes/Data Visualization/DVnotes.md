@@ -33,3 +33,16 @@
  <li>Matplotlib Pyplot: plt.scatter(x=dSV["Col1"], y=dSV["Col2"]) &nbsp&nbsp plt.xlabel("label") &nbsp&nbsp plt.ylabel("label") </li>
  <li>Seaborn: sns.scatterplot(data=dSV, x="Col1", y="Col2")</li>
 </ol>
+
+<h3>Line Plot</h3>
+-> Plots a line between two points. Multiple such lines in the same plot/figure. <br>
+-> Order of points is very important. <br>
+-> For time-series plotting and relationship plotting. <br>
+
+-> Some ways to create scatterplots:  
+<ol>
+ dSV = dataSetVariable
+ <li>Pandas: dSV.plot.line(x="Col1",y="Col2")</li>
+ <li>Matplotlib Pyplot: plt.plot(x=dSV["Col1"], y=dSV["Col2"]) &nbsp&nbsp plt.xlabel("label") &nbsp&nbsp plt.ylabel("label") </li>
+ <li>Seaborn: sns.lineplot(data=dSV, x="Col1", y="Col2")</li>
+</ol>
