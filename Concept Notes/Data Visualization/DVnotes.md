@@ -92,3 +92,13 @@
 -> We can use color as the 3rd dimension in matplotlib, pandas and seaborn as shown in <br> 
 &nbsp&nbsp&nbsp&nbsp Concept Notes/Data Visualization/coloredPlots.ipynb
 
+<h3>Multiplots</h3>
+-> Used when we want to show multiple trends, during EDA, etc. <br>
+-> In pandas and matplotlib, we use subplots. <br>
+-> In seaborn, we use facetgrid. <br>
+-> We can use matplotlib, pandas and seaborn for getting multiple plots in one figure as shown in <br> 
+&nbsp&nbsp&nbsp&nbsp Concept Notes/Data Visualization/SLBHM_Plots.ipynb
+
+
+
+
