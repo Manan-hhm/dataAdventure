@@ -46,3 +46,40 @@
  <li>Matplotlib Pyplot: plt.plot(x=dSV["Col1"], y=dSV["Col2"]) &nbsp&nbsp plt.xlabel("label") &nbsp&nbsp plt.ylabel("label") </li>
  <li>Seaborn: sns.lineplot(data=dSV, x="Col1", y="Col2")</li>
 </ol>
+
+<h3>Bar Plot</h3>
+-> Plots categories against numerical figures unlike scatter and line plots which use numbers on both axis. <br>
+-> Useful to discover and compare relationships between categories against numerical figures. <br>
+-> E.g., Gender vs Income, Marital Status vs Credit Score, etc.
+
+-> Some ways to create bar plots:  
+<ol>
+ dSV = dataSetVariable
+ <li>Pandas: dSV.plot.bar(x="Col1",y="Col2")</li>
+ <li>Matplotlib Pyplot: plt.bar(x=dSV["Col1"], y=dSV["Col2"]) </li>
+ <li>Seaborn: sns.barplot(data=dSV, x="Col1", y="Col2")</li>
+</ol>
+
+<h3>Histogram Plot</h3>
+-> A special type of bar plot where the numerical figure is a count or frequency. <br>
+-> Almost always vertical plots height = count/frequency of category.<br>
+-> Bar plots are only possible for category vs  <br>
+-> We often make histogram for numerical data by using Binning. (converting numerical data to categorical) <br>
+-> For e.g., counting number of prime numbers between 0-20, 20-40, 40-60,... <br>
+-> Ways to define bins: <br>
+   <ol>
+    <li>Manually</li>
+    <li>Only specify number of bins</li>
+   </ol>
+->Numpy and Pandas automatically calculate size of bins using the MAX and MIN of the given data: <br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp binSize = (max(X) - min(X))/bins <br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp bin<sub>i</sub> = min(X) + i.binSize <br>
+-> Histograms can also be used to find outliers. <br>
+
+-> Some ways to create histogram plots:  
+<ol>
+ dSV = dataSetVariable
+ <li>Pandas: dSV["Col1"].hist(bins=*Number of bins*)</li>
+ <li>Matplotlib Pyplot: plt.hist(x=dSV["Col1"], bins=*Number of bins*) </li>
+ <li>Seaborn: sns.histplot(data=dSV, x="Col1", bins=*Number of bins*)</li>
+</ol>
