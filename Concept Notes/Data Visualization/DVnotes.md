@@ -83,3 +83,12 @@
  <li>Matplotlib Pyplot: plt.hist(x=dSV["Col1"], bins=*Number of bins*) </li>
  <li>Seaborn: sns.histplot(data=dSV, x="Col1", bins=*Number of bins*)</li>
 </ol>
+
+<h3>3D plots</h3>
+-> If used imporperly, these plots can be difficult to interpret and see patterns. Rotation is required and difficult to represent in ppt or docs. <br>
+-> Instead, we can use color as the third dimension. <br>
+&nbsp&nbsp&nbsp&nbsp Colors can represent  both numerical and categorical values. <br>
+-> We can also use shapes and sizes. <br>
+-> We can use color as the 3rd dimension in matplotlib, pandas and seaborn as shown in <br> 
+&nbsp&nbsp&nbsp&nbsp Concept Notes/Data Visualization/coloredPlots.ipynb
+
