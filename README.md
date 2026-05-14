@@ -35,11 +35,16 @@ This repository serves as a means of documenting my journey to begin and progres
   <tr>
     <td>4</td>
     <td>Data Visualization</td>
-    <td>Ongoing 🔃</td>
+    <td>Completed ✔️</td>
   </tr>
   <tr>
     <td>4</td>
     <td>OpenCV Basics</td>
+    <td>Ongoing 🔃</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>Data scraping</td>
     <td>Coming up ⌚</td>
   </tr>
 </table>
