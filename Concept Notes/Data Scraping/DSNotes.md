@@ -32,3 +32,26 @@
 -> It is very similar to python dictionaries (objects) and lists (arrays). <br>
 -> A common format used in Scraping. It is supported by many languages like C, Java, JavaScript, Python, etc.<br>
 
+<h3>HTML Scraping</h3>
+-> Using tools like Scrapy & BeautifulSoup for scraping using python.
+-> Scrapy: A python framework allow us a simple way to scrape and crawl a website. It can also gather images and save our data as a CSV file. <br>
+-> BeautifulSoup: A library test our scrape code and initialize a scrape code. <br>
+
+<h4>Spider</h4>
+-> A function that allows you to find all the pages that you want to scrape. <br>
+
+-> For example, at books.toscrape.com, we need a spider that can crawl through/find all the book pages. <br>
+
+<h4>Creating Spider for our website</h4>
+
+1. Initialize a project. <br>
+>scrapy startproject books_scraper <br>
+'books_scraper' is the name of our project. (We can use any name) <br>
+
+Then change the directory (cd) to be in "books_scraper" <br>
+
+2. Initialize a spider with a start URL (where our spider will start crawling). <br>
+> scrapy genspider books books.toscrape.com <br>
+'books' is the name of our spider (We can use any name) <br>
+
+
