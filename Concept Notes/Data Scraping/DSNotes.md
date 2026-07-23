@@ -54,4 +54,15 @@ Then change the directory (cd) to be in "books_scraper" <br>
 > scrapy genspider books books.toscrape.com <br>
 'books' is the name of our spider (We can use any name) <br>
 
+<h4>CSS Selectors</h4>
+-> They are a simple way to specify the exact HTML tag/s we want to select on a webpage. <br>
+-> E.g., #id, .class, element.class (like p.class), elements (like p, a, etc.)
+
+-> Relative selectors (using examples):
+> div p: p elements inside div elements. <br>
+> div > p: all p elements where parent is a div element. <br>
+> div + p: The first p element that are placed immediately after div elements. <br>
+> p ~ ul: selects every ul element that are preceeded by a p element.
+
+-> For more and detailed information on CSS selectors, visit: https://www.w3schools.com/CSS/css_selectors.asp <br>
 
