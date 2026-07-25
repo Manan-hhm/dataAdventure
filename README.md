@@ -45,11 +45,11 @@ This repository serves as a means of documenting my journey to begin and progres
   <tr>
     <td>6</td>
     <td>Data scraping</td>
-    <td>Ongoing 🔃</td>
+    <td>Completed ✔️</td>
   </tr>
   <tr>
     <td>7</td>
     <td>SQL Basics</td>
-    <td>Coming up ⌚</td>
+    <td>Ongoing 🔃</td>
   </tr>
 </table>
