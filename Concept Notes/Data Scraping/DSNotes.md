@@ -42,17 +42,6 @@
 
 -> For example, at books.toscrape.com, we need a spider that can crawl through/find all the book pages. <br>
 
-<h4>Creating Spider for our website</h4>
-
-1. Initialize a project. <br>
->scrapy startproject books_scraper <br>
-'books_scraper' is the name of our project. (We can use any name) <br>
-
-Then change the directory (cd) to be in "books_scraper" <br>
-
-2. Initialize a spider with a start URL (where our spider will start crawling). <br>
-> scrapy genspider books books.toscrape.com <br>
-'books' is the name of our spider (We can use any name) <br>
 
 <h4>CSS Selectors</h4>
 -> They are a simple way to specify the exact HTML tag/s we want to select on a webpage. <br>
@@ -66,3 +55,31 @@ Then change the directory (cd) to be in "books_scraper" <br>
 
 -> For more and detailed information on CSS selectors, visit: https://www.w3schools.com/CSS/css_selectors.asp <br>
 
+<h3>Scraping books.toscrape.com using Scrapy</h3>
+
+<h4>Creating Spider for our website</h4>
+
+1. Initialize a project. <br>
+>scrapy startproject books_scraper <br>
+'books_scraper' is the name of our project. (We can use any name) <br>
+
+Then change the directory (cd) to be in "books_scraper" <br>
+
+2. Initialize a spider with a start URL (where our spider will start crawling). <br>
+> scrapy genspider books books.toscrape.com <br>
+'books' is the name of our spider (We can use any name) <br>
+
+3. Configure spider code.
+> Shown in books.py <br>
+> Use yield with response.follow as a generator to repeat scraping the book details on its page and and books  <br>
+> For getting book details define a special function. <br>
+> Use .get() to get the first tag only and use "::text" at the end of selector to fetch the text inside HTML tag. <br>
+
+4. Run the spider
+> scrapy crawl books
+
+<h3>Scraping books.toscrape.com using BeautifulSoup</h3>
+
+> import bs4 in your code <br>
+> import requests library to make web requests. <br>
+> Use BeautifulSoup library functions (like res.text, .select, etc.)as demonstrated in BeautifulSoup.ipynb. <br>
